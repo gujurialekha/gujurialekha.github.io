@@ -56,3 +56,16 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # IndexNow: tells Bing, Yandex, Naver, Seznam and Yep about every URL. Skipped on the daily
+      # rebuild (nothing changed; re-pinging unchanged URLs gets throttled). Key file: public/<key>.txt
+      - name: Checkout (for the IndexNow script)
+        if: github.event_name != 'schedule'
+        uses: actions/checkout@v4
+
+      - name: Notify IndexNow
+        if: github.event_name != 'schedule'
+        continue-on-error: true # a ping failure must never mark the deploy failed
+        run: |
+          urls=$(curl -s https://gujurialekha.github.io/sitemap.xml https://gujurialekha.github.io/blog/sitemap.xml | grep -o '<loc>[^<]*' | sed 's/<loc>//')
+          python3 scripts/indexing_notify.py gujurialekha.github.io 08dd257431d96c25b69b2d369b1b41b9 $urls

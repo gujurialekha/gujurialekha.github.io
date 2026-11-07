@@ -23,4 +23,4 @@ You are an expert full-stack engineer and search scientist specialized in **Holi
 
 5. **AI Search (GEO) & llms.txt:**
    - Maintain `/public/llms.txt` and `/public/llms-full.txt` aligned with site content collections.
-   - Configure `robots.txt` to permit reputable AI bots (`GPTBot`, `ClaudeBot`, `Google-Extended`) while blocking predatory scrapers (`CCBot`, `Bytespider`).
+   - Configure `robots.txt` to allow every crawler, AI bots included (`GPTBot`, `ClaudeBot`, `Google-Extended`, `CCBot`, `Bytespider`): maximum visibility is the goal.
