@@ -6,6 +6,7 @@ import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Page not found',
   robots: { index: false },
+  alternates: { canonical: null }, // don't inherit the homepage canonical from the layout
 };
 
 export default function NotFound() {

@@ -91,3 +91,13 @@ skills/ agents/ scripts/ hooks/ .agent(s)/ .claude-plugin/ .codex-plugin/
 ## License
 
 The code is licensed under [Apache 2.0](LICENSE.txt). Portfolio content (text, résumé, photos) © Gujuri Alekha.
+
+### Logo, name and design: all rights reserved
+
+The following are © Gujuri Alekha, all rights reserved. They are **not** covered by the Apache 2.0 license above:
+
+- the "A inside G" logo and brand mark (`public/favicon.*`, `public/apple-touch-icon.png`) and the name "Gujuri Alekha";
+- the visual design and look of this portfolio and the blog: layout, colour palette, typography choices, the "AI lab" visual style, animations, and the way they are combined;
+- all written content, case-study write-ups, project descriptions, blog posts, notebooks, images and photos.
+
+Please don't copy, clone or imitate this design or branding as your own site, reuse the logo or name, or present my work, writing or identity as yours. Learning from the code is fine; passing off the look, content or brand is not. To use any of it, ask me first.

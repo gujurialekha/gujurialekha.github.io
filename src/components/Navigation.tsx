@@ -83,9 +83,9 @@ export default function Navigation() {
                 className="w-[34px] h-[34px] rounded-lg transition-transform duration-150 group-hover:-rotate-6 group-hover:scale-105 group-hover:shadow-lab-glow motion-reduce:transition-none"
               />
               <span className="font-display font-bold text-sm tracking-tight text-lab-text-primary group-hover:text-lab-accent transition-colors">
-                ALEKHA <span className="text-lab-cyan">G</span>
+                Gujuri <span className="text-lab-cyan">Alekha</span>
               </span>
-              <span className="sr-only">home</span>
+              <span className="sr-only">, home</span>
             </a>
 
             {/* Desktop Navigation Links */}

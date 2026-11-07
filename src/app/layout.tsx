@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     template: '%s | Gujuri Alekha',
   },
   description:
-    'Gujuri Alekha (Alekha Gujuri), Associate Data Scientist at Trinity Mobility, Bengaluru. Portfolio of time-series forecasting, smart city IoT and MLOps case studies.',
+    'Gujuri Alekha (Alekha Gujuri), Data Scientist & AI / ML Engineer at Trinity Mobility, Bengaluru. Portfolio of time-series forecasting, smart city IoT and MLOps case studies.',
   keywords: [
     'Alekha Gujuri',
     'Gujuri Alekha',
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
         url: 'https://gujurialekha.github.io/documents/logos/gujuri-alekha.jpg',
         width: 600,
         height: 600,
-        alt: 'Gujuri Alekha — Associate Data Scientist',
+        alt: 'Gujuri Alekha — Data Scientist & AI / ML Engineer',
       },
     ],
   },
@@ -142,7 +142,7 @@ const jsonLd = {
       familyName: 'Gujuri',
       homeLocation: { '@type': 'Place', name: 'Bengaluru, India' },
       email: 'mailto:gujurialekha@gmail.com',
-      jobTitle: 'Associate Data Scientist',
+      jobTitle: 'Data Scientist & AI / ML Engineer',
       worksFor: {
         '@type': 'Organization',
         name: 'Trinity Mobility',
